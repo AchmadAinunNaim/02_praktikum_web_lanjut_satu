@@ -21,7 +21,7 @@ Route::get('/about ', function () {
     echo "2041720164 Achmad Ainun Naim";
 });
 
-Route::get('/articles/ {id} ', function () {
+Route::get('/articles/ {$id} ', function () {
     echo " “Halaman Artikel 
-    dengan ID =  2041720164";
+    dengan ID =  .$id";
 });
